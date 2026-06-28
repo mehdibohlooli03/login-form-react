@@ -1,0 +1,52 @@
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  color: #fff;
+  background: transparent;
+}
+
+.auth-form h2 {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 600;
+  text-shadow: 0 0 10px #ff3c00;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+input {
+  margin-top: 8px;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ff3c00;
+  background: rgba(255, 255, 255, 0.05);
+  color: #ffffff;
+  outline: none;
+  transition: 0.3s;
+}
+
+input:focus {
+  box-shadow: 0 0 15px #ffffff;
+}
+
+.primary-btn {
+  padding: 8px;
+  background: linear-gradient(90deg, #ff3c00, #ff7a00);
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 700;
+  transition: 0.3s;
+}
+
+.primary-btn:hover {
+  box-shadow: 0 0 25px #ff3c00;
+  background: linear-gradient(90deg, #ff3c00, #ff7a00);
+}
